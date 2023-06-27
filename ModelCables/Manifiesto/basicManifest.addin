@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+   <AddIn Type="Application">
+      <Assembly>C:\Users\mmayorga\source\repos\PluginRevitBase\PluginRevitBase\bin\Debug\PluginRevitBase.dll</Assembly>
+      <ClientId>C387941F-CE03-4662-9D5D-1AB629EDF0DB</ClientId>
+      <FullClassName>MEM_AlbañileriaDiseño.ClassPrincipal</FullClassName>
+      <Name>MEM_AlbañileriaDiseño</Name>
+      <VendorId>ADSK</VendorId>
+      <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>	  
+   </AddIn>
+</RevitAddIns>

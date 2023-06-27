@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+    <AddIn Type="Application">
+    <ClientId>E4FBEE89-38F8-4F99-89F5-F8FA470669C3</ClientId>
+    <Assembly>MEM_AlbañileriaDiseño.dll</Assembly>
+    <FullClassName>MEM_AlbañileriaDiseño.ClassPrincipal</FullClassName>
+    <Name>MEM_AlbañileriaDiseño</Name>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>	  
+    </AddIn>
+</RevitAddIns>

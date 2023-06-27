@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEM_AlbañileriaDiseño", "ModelCables\MEM_AlbañileriaDiseño.csproj", "{42EBB0C9-CB95-4469-9980-B9DB04CF356E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyMSIpackage", "MyMSIpackage\MyMSIpackage.vdproj", "{605F255F-8EE8-4201-A938-55FCAB5A3CC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42EBB0C9-CB95-4469-9980-B9DB04CF356E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42EBB0C9-CB95-4469-9980-B9DB04CF356E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42EBB0C9-CB95-4469-9980-B9DB04CF356E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42EBB0C9-CB95-4469-9980-B9DB04CF356E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605F255F-8EE8-4201-A938-55FCAB5A3CC7}.Debug|Any CPU.ActiveCfg = Debug
+		{605F255F-8EE8-4201-A938-55FCAB5A3CC7}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B529FC63-4150-43BA-AF96-12B1D46B84D2}
+	EndGlobalSection
+EndGlobal
