@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MEM_AlbañileriaDiseño
+namespace MEM_AlbañileriaDiseño2020
 {
     public partial class TemplateName : Form
     {

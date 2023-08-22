@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:MEM.Albañilerias2021"
+"ProjectName" = "8:MEM.Albañilerias2020"
 "LanguageId" = "3:3082"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:3082"
@@ -15,26 +15,26 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_04340E065EFC43FB9644866B776F3037"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_7CDCC23A9C0545428A7851E187457801"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_DA2A240F35444C60A41211DB8FFE042C"
+        "MsmKey" = "8:_E60406C0C0B34BD287841007170375D4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ED5CA7E3F3BA4AB8BD53825C099D4F80"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DA2A240F35444C60A41211DB8FFE042C"
+        "OwnerKey" = "8:_E60406C0C0B34BD287841007170375D4"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -45,7 +45,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\MEM.Albañilerias2021.msi"
+        "OutputFilename" = "8:Debug\\MEM.Albañilerias2020.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -132,26 +132,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_04340E065EFC43FB9644866B776F3037"
-            {
-            "SourcePath" = "8:..\\ModelCables\\Manifiesto\\MEM_AlbañileriaDiseño.addin"
-            "TargetName" = "8:MEM_AlbañileriaDiseño.addin"
-            "Tag" = "8:"
-            "Folder" = "8:_2AC1755114E84F9A99CCFA538F9276C1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7CDCC23A9C0545428A7851E187457801"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Downloads\\BSBanner.jpg"
@@ -172,21 +152,41 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DA2A240F35444C60A41211DB8FFE042C"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E60406C0C0B34BD287841007170375D4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:MEM_AlbañileriaDiseño, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:MEM_AlbañileriaDiseño2020, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_DA2A240F35444C60A41211DB8FFE042C"
+                    "_E60406C0C0B34BD287841007170375D4"
                     {
-                    "Name" = "8:MEM_AlbañileriaDiseño.dll"
+                    "Name" = "8:MEM_AlbañileriaDiseño2020.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:..\\ModelCables\\bin\\Debug\\MEM_AlbañileriaDiseño.dll"
+            "SourcePath" = "8:..\\ModelCables\\bin\\Debug\\MEM_AlbañileriaDiseño2020.dll"
             "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_2AC1755114E84F9A99CCFA538F9276C1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED5CA7E3F3BA4AB8BD53825C099D4F80"
+            {
+            "SourcePath" = "8:..\\ModelCables\\Manifiesto\\MEM_AlbañileriaDiseño2020.addin"
+            "TargetName" = "8:MEM_AlbañileriaDiseño2020.addin"
             "Tag" = "8:"
             "Folder" = "8:_2AC1755114E84F9A99CCFA538F9276C1"
             "Condition" = "8:"
@@ -211,7 +211,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_2AC1755114E84F9A99CCFA538F9276C1"
             {
-            "DefaultLocation" = "8:C:\\ProgramData\\Autodesk\\Revit\\Addins\\2021"
+            "DefaultLocation" = "8:C:\\ProgramData\\Autodesk\\Revit\\Addins\\2020"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -269,9 +269,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:MEM.Albañilerias2021"
+        "ProductName" = "8:Memoria de albañilerias 2020"
         "ProductCode" = "8:{3C6CC090-40DB-459A-875D-C62CDA6422C3}"
-        "PackageCode" = "8:{7EF46D04-5807-406B-95A2-2E7A0D4991E6}"
+        "PackageCode" = "8:{D5FB0EFC-0316-440D-AC6C-D67B5B15A4F9}"
         "UpgradeCode" = "8:{5ACEB3D9-06DE-4CAC-8A26-BC889CF29973}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -284,7 +284,7 @@
         "ARPHELPLINK" = "8:"
         "Title" = "8:MyMSIpackage"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Manuel Mayorga"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"

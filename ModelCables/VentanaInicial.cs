@@ -16,7 +16,7 @@ using System.Collections.ObjectModel;
 using System.Runtime.Remoting.Contexts;
 using System.Drawing.Text;
 using System.Security.Cryptography.X509Certificates;
-using MEM_AlbañileriaDiseño.Properties;
+using MEM_AlbañileriaDiseño2020.Properties;
 using System.IO;
 using static System.Net.WebRequestMethods;
 using System.Xml.Linq;
@@ -24,7 +24,7 @@ using System.Net.Http;
 using System.Security.Policy;
 using System.Collections;
 
-namespace MEM_AlbañileriaDiseño
+namespace MEM_AlbañileriaDiseño2020
 {
    
 
@@ -907,7 +907,7 @@ namespace MEM_AlbañileriaDiseño
         public double convertUnits(double d, Autodesk.Revit.DB.View v)
         {
 
-            double shift = UnitUtils.ConvertToInternalUnits(d, UnitTypeId.Meters); //v.Scale para modificar el valor según la escala (no lo entiendo aún)
+            double shift = UnitUtils.ConvertToInternalUnits(d, DisplayUnitType.DUT_METERS); //v.Scale para modificar el valor según la escala (no lo entiendo aún)
             //Autodesk.Revit.DB.DisplayUnitType.DUT_MILLIMETERS para versiones 21 hacia atrás
             return shift;
         }

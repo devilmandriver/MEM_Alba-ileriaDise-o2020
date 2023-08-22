@@ -7,9 +7,9 @@
     <ProjectGuid>{42EBB0C9-CB95-4469-9980-B9DB04CF356E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MEM_AlbañileriaDiseño</RootNamespace>
-    <AssemblyName>MEM_AlbañileriaDiseño</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>MEM_AlbañileriaDiseño2020</RootNamespace>
+    <AssemblyName>MEM_AlbañileriaDiseño2020</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -35,11 +35,11 @@
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="RevitAPI">
-      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPIUI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -92,7 +92,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Manifiesto\MEM_AlbañileriaDiseño.addin" />
+    <None Include="Manifiesto\MEM_AlbañileriaDiseño2020.addin" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Ladrillo100x100.png" />

@@ -15,7 +15,7 @@ using System.Drawing.Imaging;
 using static System.Net.WebRequestMethods;
 //using PresentationCore;
 
-namespace MEM_AlbañileriaDiseño
+namespace MEM_AlbañileriaDiseño2020
 {
     class ClassPrincipal : IExternalApplication
     {
@@ -63,17 +63,18 @@ namespace MEM_AlbañileriaDiseño
 
 
 
-            System.Drawing.Image img = MEM_AlbañileriaDiseño.Properties.Resources.Ladrillo100x100;
+            System.Drawing.Image img = MEM_AlbañileriaDiseño2020.Properties.Resources.Ladrillo100x100;
             BitmapSource imgSrc = GetImageSource(img);
 
-            string label = "Memoría de Albañilería";
+            string label = "Memoría de " + Environment.NewLine+ "Albañilería";
             string description = "Creación de memoria de Albañilería en vista de diseño usando " +
                 "los materiales de los muros. Para ello generará lo patrones de relleno que sean " +
                 "necesarios para la representación de los muros en vista de sección. El color de los patrones de " +
                 "relleno dependerá de los colores asignados a los materiales.";
 
             //Creo los datos del boton 
-            PushButtonData botonDatosModeladoGeneral = new PushButtonData("internalButtonMEM_AlbañileriaDiseño", label, Assembly.GetExecutingAssembly().Location, "MEM_AlbañileriaDiseño.Class1");
+            PushButtonData botonDatosModeladoGeneral = new PushButtonData("internalButtonMEM_AlbañileriaDiseño2020", label, Assembly.GetExecutingAssembly().Location, "MEM_AlbañileriaDiseño2020.Class1");
+
 
             botonDatosModeladoGeneral.LargeImage = imgSrc;
 

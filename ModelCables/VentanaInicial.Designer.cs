@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace MEM_AlbañileriaDiseño
+namespace MEM_AlbañileriaDiseño2020
 {
     partial class VentanaInicial
     {
@@ -702,11 +702,11 @@ namespace MEM_AlbañileriaDiseño
             // 
             // picturePreviaMuro
             // 
-            this.picturePreviaMuro.BackgroundImage = global::MEM_AlbañileriaDiseño.Properties.Resources.BasicWall;
+            this.picturePreviaMuro.BackgroundImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
             this.picturePreviaMuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picturePreviaMuro.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picturePreviaMuro.ErrorImage = global::MEM_AlbañileriaDiseño.Properties.Resources.BasicWall;
-            this.picturePreviaMuro.InitialImage = global::MEM_AlbañileriaDiseño.Properties.Resources.BasicWall;
+            this.picturePreviaMuro.ErrorImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
+            this.picturePreviaMuro.InitialImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
             this.picturePreviaMuro.Location = new System.Drawing.Point(3, 16);
             this.picturePreviaMuro.Name = "picturePreviaMuro";
             this.picturePreviaMuro.Size = new System.Drawing.Size(394, 383);

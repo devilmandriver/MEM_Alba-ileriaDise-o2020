@@ -1,4 +1,4 @@
-﻿namespace MEM_AlbañileriaDiseño
+﻿namespace MEM_AlbañileriaDiseño2020
 {
     partial class TemplateName
     {

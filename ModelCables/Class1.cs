@@ -14,7 +14,7 @@ using System.IO;
 using System.Drawing.Imaging;
 using System.Windows.Forms;
 
-namespace MEM_AlbañileriaDiseño
+namespace MEM_AlbañileriaDiseño2020
 {
     [Transaction(TransactionMode.Manual)]
     public class Class1 : IExternalCommand
@@ -25,14 +25,13 @@ namespace MEM_AlbañileriaDiseño
         static public EventHandlerWithArgsCreateFillRegion CreatefillR = new EventHandlerWithArgsCreateFillRegion();
         static public EventHandlerWithArgsModelFilledRegion createFillM = new EventHandlerWithArgsModelFilledRegion();
         static public EventHandlerWithArgsCreateDimensions createDim = new EventHandlerWithArgsCreateDimensions(); 
-
         //static public EventHandlerWithArgsCreateTextNote textNoteCreatorNC = new EventHandlerWithArgsCreateTextNote();
         static public EventHandlerWithArgsCreateTextNote textNoteCreator = new EventHandlerWithArgsCreateTextNote();
 
         public Result Execute(ExternalCommandData datosDelComandoExterno, ref string mensaje, ElementSet conjuntoDeElementos)
         {
             //Fecha Final de uso del plugin
-            DateTime endTime = new DateTime(2023, 06, 30);
+            DateTime endTime = new DateTime(2024, 06, 1);
             if (DateTime.Compare(endTime, DateTime.Today) >= 0)
             {
                 UIApplication aplicaciónDeLaIU = datosDelComandoExterno.Application;

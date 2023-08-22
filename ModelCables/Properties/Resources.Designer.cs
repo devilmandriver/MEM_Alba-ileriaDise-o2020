@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MEM_AlbañileriaDiseño.Properties {
+namespace MEM_AlbañileriaDiseño2020.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MEM_AlbañileriaDiseño.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MEM_AlbañileriaDiseño.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MEM_AlbañileriaDiseño2020.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -14,7 +14,7 @@ using System.Windows.Forms;
 using System.Windows.Media;
 using View = Autodesk.Revit.DB.View;
 
-namespace MEM_AlbañileriaDiseño
+namespace MEM_AlbañileriaDiseño2020
 {
     abstract public class ExternalEventMy<T> : IExternalEventHandler
     {
@@ -420,7 +420,7 @@ namespace MEM_AlbañileriaDiseño
                         XYZ dimensionDirection = new XYZ(1, 0, 0);
                         var edgesDirection = dimensionDirection.CrossProduct(v.ViewDirection);
                         //var shift = UnitUtils.ConvertToInternalUnits(5 * v.Scale, DisplayUnitType.DUT_MILLIMETERS)* edgesDirection; for version21
-                        var shift = UnitUtils.ConvertToInternalUnits(10 * v.Scale, UnitTypeId.Millimeters)* edgesDirection;
+                        var shift = UnitUtils.ConvertToInternalUnits(10 * v.Scale, DisplayUnitType.DUT_MILLIMETERS)* edgesDirection;
                         var dimensionLine = Line.CreateUnbound(f01.get_BoundingBox(v).Min + shift, dimensionDirection);
                         var edges = edgeEnum.Where(x => IsEdgeDirectionSatisfied(x, edgesDirection)) .ToList();
                         ReferenceArray references = new ReferenceArray();
@@ -428,6 +428,7 @@ namespace MEM_AlbañileriaDiseño
                         //{
                         //    references.Append(edge.Reference);
                         //}
+
                         references.Append(edges.First<Edge>().Reference);
                         references.Append(edges.Last<Edge>().Reference);
                         //foreach (var edge2 in edges02)
