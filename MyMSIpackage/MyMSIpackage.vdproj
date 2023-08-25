@@ -15,26 +15,26 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_196AB3FF449A4E53B37C3E1BC0B2E4EC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5FF22F2C58894D07847B196B612B28D8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_7CDCC23A9C0545428A7851E187457801"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E60406C0C0B34BD287841007170375D4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_ED5CA7E3F3BA4AB8BD53825C099D4F80"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E60406C0C0B34BD287841007170375D4"
+        "OwnerKey" = "8:_5FF22F2C58894D07847B196B612B28D8"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -132,12 +132,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7CDCC23A9C0545428A7851E187457801"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_196AB3FF449A4E53B37C3E1BC0B2E4EC"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\BSBanner.jpg"
-            "TargetName" = "8:BSBanner.jpg"
+            "SourcePath" = "8:..\\ModelCables\\Manifiesto\\MEM_AlbañileriaDiseño2020.addin"
+            "TargetName" = "8:MEM_AlbañileriaDiseño2020.addin"
             "Tag" = "8:"
-            "Folder" = "8:_5E6743048BB04C09BA8E4942B18D5D35"
+            "Folder" = "8:_2AC1755114E84F9A99CCFA538F9276C1"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -152,14 +152,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E60406C0C0B34BD287841007170375D4"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5FF22F2C58894D07847B196B612B28D8"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:MEM_AlbañileriaDiseño2020, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E60406C0C0B34BD287841007170375D4"
+                    "_5FF22F2C58894D07847B196B612B28D8"
                     {
                     "Name" = "8:MEM_AlbañileriaDiseño2020.dll"
                     "Attributes" = "3:512"
@@ -183,12 +183,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED5CA7E3F3BA4AB8BD53825C099D4F80"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7CDCC23A9C0545428A7851E187457801"
             {
-            "SourcePath" = "8:..\\ModelCables\\Manifiesto\\MEM_AlbañileriaDiseño2020.addin"
-            "TargetName" = "8:MEM_AlbañileriaDiseño2020.addin"
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\BSBanner.jpg"
+            "TargetName" = "8:BSBanner.jpg"
             "Tag" = "8:"
-            "Folder" = "8:_2AC1755114E84F9A99CCFA538F9276C1"
+            "Folder" = "8:_5E6743048BB04C09BA8E4942B18D5D35"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -271,7 +271,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Memoria de albañilerias 2020"
         "ProductCode" = "8:{3C6CC090-40DB-459A-875D-C62CDA6422C3}"
-        "PackageCode" = "8:{D5FB0EFC-0316-440D-AC6C-D67B5B15A4F9}"
+        "PackageCode" = "8:{733B3356-E6C6-4FFC-8A39-756F371D6435}"
         "UpgradeCode" = "8:{5ACEB3D9-06DE-4CAC-8A26-BC889CF29973}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
