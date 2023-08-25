@@ -3,7 +3,7 @@
     <AddIn Type="Application">
     <ClientId>E4FBEE89-38F8-4F99-89F5-F8FA470669C3</ClientId>
     <Assembly>MEM_AlbañileriaDiseño2020.dll</Assembly>
-    <FullClassName>MEM_AlbañileriaDiseño2020.Class1</FullClassName>
+    <FullClassName>MEM_AlbañileriaDiseño2020.ClassPrincipal</FullClassName>
     <Name>MEM_AlbañileriaDiseño2020</Name>
     <VendorId>ADSK</VendorId>
     <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>	  
