@@ -31,6 +31,7 @@ namespace MEM_AlbañileriaDiseño2020
         public Result Execute(ExternalCommandData datosDelComandoExterno, ref string mensaje, ElementSet conjuntoDeElementos)
         {
             //Fecha Final de uso del plugin
+
             DateTime endTime = new DateTime(2024, 06, 1);
             if (DateTime.Compare(endTime, DateTime.Today) >= 0)
             {
