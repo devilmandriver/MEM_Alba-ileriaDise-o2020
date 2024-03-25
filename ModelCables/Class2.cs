@@ -174,17 +174,20 @@ namespace MEM_AlbañileriaDiseño2020
             ElementId idSolid = null;
             foreach (Element p in regions)
             {
-
-                string familyName = p.get_Parameter(BuiltInParameter.ALL_MODEL_FAMILY_NAME).AsString();
-
-                if (familyName == "Filled region" || familyName == "Región rellenada")
+                try
                 {
-                    FilledRegionType f = p as FilledRegionType;
-                    string fillName = doc.GetElement(f.ForegroundPatternId).Name;
+                    string familyName = p.get_Parameter(BuiltInParameter.ALL_MODEL_FAMILY_NAME).AsString();
 
-                    //MessageBox.Show(fillName);
-                    if (fillName == "<Solid fill>" || fillName == "<Relleno uniforme>") { idSolid = f.ForegroundPatternId; }
+                    if (familyName == "Filled region" || familyName == "Región rellenada")
+                    {
+                        FilledRegionType f = p as FilledRegionType;
+                        string fillName = doc.GetElement(f.ForegroundPatternId).Name;
+
+                        //MessageBox.Show(fillName);
+                        if (fillName == "<Solid fill>" || fillName == "<Relleno uniforme>") { idSolid = f.ForegroundPatternId; }
+                    }
                 }
+               catch (Exception ex) { }
 
             }
 
