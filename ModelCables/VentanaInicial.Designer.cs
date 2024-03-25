@@ -76,14 +76,15 @@ namespace MEM_AlbañileriaDiseño2020
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.g = new System.Windows.Forms.GroupBox();
+            this.pictureBoxWhite = new System.Windows.Forms.PictureBox();
+            this.picturePreviaMuro = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.labelparam = new System.Windows.Forms.Label();
             this.labelIntExt = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.groupBoxParameter = new System.Windows.Forms.GroupBox();
-            this.pictureBoxWhite = new System.Windows.Forms.PictureBox();
-            this.picturePreviaMuro = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -95,10 +96,6 @@ namespace MEM_AlbañileriaDiseño2020
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWhite)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturePreviaMuro)).BeginInit();
             this.SuspendLayout();
-            //jit
-            
-
-
             // 
             // comboBoxTemplates
             // 
@@ -378,6 +375,7 @@ namespace MEM_AlbañileriaDiseño2020
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label15);
             this.groupBox3.Controls.Add(this.comboBoxParametroTitulo);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.checkBoxNotaClave);
@@ -634,6 +632,30 @@ namespace MEM_AlbañileriaDiseño2020
             this.g.TabStop = false;
             this.g.Text = "Vista Previa";
             // 
+            // pictureBoxWhite
+            // 
+            this.pictureBoxWhite.BackColor = System.Drawing.Color.White;
+            this.pictureBoxWhite.Location = new System.Drawing.Point(34, 49);
+            this.pictureBoxWhite.Name = "pictureBoxWhite";
+            this.pictureBoxWhite.Size = new System.Drawing.Size(100, 50);
+            this.pictureBoxWhite.TabIndex = 26;
+            this.pictureBoxWhite.TabStop = false;
+            this.pictureBoxWhite.Visible = false;
+            // 
+            // picturePreviaMuro
+            // 
+            this.picturePreviaMuro.BackgroundImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
+            this.picturePreviaMuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picturePreviaMuro.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picturePreviaMuro.ErrorImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
+            this.picturePreviaMuro.InitialImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
+            this.picturePreviaMuro.Location = new System.Drawing.Point(3, 16);
+            this.picturePreviaMuro.Name = "picturePreviaMuro";
+            this.picturePreviaMuro.Size = new System.Drawing.Size(394, 383);
+            this.picturePreviaMuro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturePreviaMuro.TabIndex = 25;
+            this.picturePreviaMuro.TabStop = false;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(642, 519);
@@ -690,29 +712,16 @@ namespace MEM_AlbañileriaDiseño2020
             this.groupBoxParameter.TabIndex = 0;
             this.groupBoxParameter.TabStop = false;
             // 
-            // pictureBoxWhite
+            // label15
             // 
-            this.pictureBoxWhite.BackColor = System.Drawing.Color.White;
-            this.pictureBoxWhite.Location = new System.Drawing.Point(34, 49);
-            this.pictureBoxWhite.Name = "pictureBoxWhite";
-            this.pictureBoxWhite.Size = new System.Drawing.Size(100, 50);
-            this.pictureBoxWhite.TabIndex = 26;
-            this.pictureBoxWhite.TabStop = false;
-            this.pictureBoxWhite.Visible = false;
-            // 
-            // picturePreviaMuro
-            // 
-            this.picturePreviaMuro.BackgroundImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
-            this.picturePreviaMuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picturePreviaMuro.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picturePreviaMuro.ErrorImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
-            this.picturePreviaMuro.InitialImage = global::MEM_AlbañileriaDiseño2020.Properties.Resources.BasicWall;
-            this.picturePreviaMuro.Location = new System.Drawing.Point(3, 16);
-            this.picturePreviaMuro.Name = "picturePreviaMuro";
-            this.picturePreviaMuro.Size = new System.Drawing.Size(394, 383);
-            this.picturePreviaMuro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picturePreviaMuro.TabIndex = 25;
-            this.picturePreviaMuro.TabStop = false;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(3, 138);
+            this.label15.MaximumSize = new System.Drawing.Size(360, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(162, 26);
+            this.label15.TabIndex = 30;
+            this.label15.Text = "Para excluir muros en la leyenda \r\ncolocar un parámetro Fabricante";
             // 
             // VentanaInicial
             // 
@@ -802,5 +811,6 @@ namespace MEM_AlbañileriaDiseño2020
         private System.Windows.Forms.ComboBox comboBoxMaterialDescripción;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label MainComments;
+        private System.Windows.Forms.Label label15;
     }
 }
